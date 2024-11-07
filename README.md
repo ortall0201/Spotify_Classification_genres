@@ -40,9 +40,13 @@ The main results of our project show:
 •	Exploring additional text-based features or contextual audio data could further enhance model performance.
 
 ## For more descriptive details : https://docs.google.com/document/d/1s0cfgyKlgBjMYcbDlTA1ioaXl_o8j5se/edit?usp=sharing&ouid=108623279518071003366&rtpof=true&sd=true
-
+___________________________________________________________________________________________________________________
 # Project Overview (How to view - guidelines)
-This project aims to analyze and integrate research findings from two distinct data exploration approaches by Researcher A and Researcher B. Each researcher’s work is documented in separate Jupyter notebooks, and their analyses are combined in a master notebook to synthesize insights. The data sources include raw CSV files and an EDA-preprocessed CSV file, used differently across notebooks. Additionally, the repository includes presentation materials, documentation, and visual aids for further reference.
+This repository contains the results and analysis of the genre classification task based on the Spotify dataset. The project is divided into two approaches:
+
+Approach A (Researcher A) uses a preprocessed version of the dataset, which includes an initial Exploratory Data Analysis (EDA).
+Approach B (Researcher B) uses the raw dataset directly for classification without prior preprocessing.
+Both approaches are implemented in separate notebooks, and their results are integrated into a master notebook.
 ____________________________________________________________________________________________________________________
 ## Repository Structure
 
@@ -94,55 +98,60 @@ Spotify_Classification_genres/
 
 
 ___________________________________________________________________________________________________
-Notebooks
-Researcher A Notebook
-Filename: notebooks/researcher_A_notebook.ipynb
-Description: This notebook performs exploratory data analysis (EDA) and uses the preprocessed eda_data.csv file. It includes initial insights and specific figures related to [data characteristics, trends, etc.].
 
-Researcher B Notebook
-Filename: notebooks/researcher_B_notebook.ipynb
-Description: This notebook analyzes the original, raw data from raw_data.csv, using a different approach to explore the data. Key sections include analysis of [specific metrics, trends, etc.].
+## Notebooks
+approach_A_notebook.ipynb
+This notebook uses a preprocessed dataset, which has undergone initial data cleaning and EDA. The focus is on building a classification model based on this cleaned data.
 
-Master Notebook
-Filename: notebooks/master_notebook.ipynb
-Description: The master notebook combines and integrates the analyses from both Researcher A and Researcher B. It draws conclusions from their findings and presents a unified view of the data.
+approach_B_notebook.ipynb
+This notebook works with the raw dataset directly, and shows another approach for preprocessing and EDA steps , and builds a classification model using the unprocessed data.
 
-Data Files
-Raw Data: data/raw_data.csv — This is the unprocessed data used by Researcher B’s notebook.
-EDA Data: data/eda_data.csv — This is the preprocessed data created during the EDA process and used by Researcher A’s notebook.
-Documentation
-Project Overview: documentation/project_overview.docx — Provides context, objectives, and methodology behind the project.
-Figures and Descriptions: documentation/figures_description.docx — Contains graphical representations and detailed descriptions of the findings and figures generated in both researchers' notebooks.
-Presentation
-PowerPoint Presentation: presentation/project_presentation.pptx
-This presentation summarizes key findings and insights gathered through the project, providing a visual overview suitable for stakeholders or for use in meetings.
+master_notebook.ipynb
+This notebook combines the findings from both approaches, comparing their results and providing a comprehensive analysis of the genre classification task.
+____________________________________________________________________________________________________________________________________
+## Data
 
-Usage Instructions
-Run Individual Notebooks:
+processed_data_for_notebook_A/
+Contains the preprocessed data used in Researcher A's notebook.
+dataset.csv - 
+Raw dataset used initially for an overview.
+final_clean_dataset.csv - 
+Cleaned dataset after preliminary EDA, used in Researcher A's notebook.
 
-To see each researcher's specific approach, open and run researcher_A_notebook.ipynb (using data/eda_data.csv) and researcher_B_notebook.ipynb (using data/raw_data.csv).
-Run the Master Notebook:
+raw_data/
+Contains the raw dataset used in Researcher B's notebook.
+dataset.csv -
+Raw dataset used directly for model training in Researcher B's notebook.
+________________________________________________________________________________________________________________________
+## Documentation
+Finding_the_genre_Multi_Class_Classification.docx
+Detailed descriptions of the classification process, including figures and results from both Researcher A and Researcher B's notebooks.
 
-To view the integrated analysis, open and run master_notebook.ipynb. This notebook synthesizes insights from both individual analyses.
-Review Documentation:
-
-The documentation files provide additional details on the project context (project_overview.docx) and descriptive information for each figure (figures_description.docx).
-View Presentation:
+Finding_the_Genre_Project_Report.docx
+The project's full report, including context, methodology, goals, and findings.
+________________________________________________________________________________________________________________________
+## Presentation
+Finding_the_Genre_Project_PresentationNEW.pptx
+A PowerPoint presentation summarizing the project's methodology, findings, and conclusions.
 
 The project_presentation.pptx file in the presentation folder summarizes the project and can be used as a quick reference or for presenting findings.
-Requirements
+__________________________________________________________________________________________________________________________
+## Requirements
 To run the notebooks, ensure you have the following libraries installed:
 
 pandas
 numpy
 matplotlib
 seaborn
-License
-This project is licensed under the [Your License Here].
 
-Contact
+You can also download the notebooks and run them in Google Colab.
+________________________________________________________________________________________________________________________
+## License
+This project is licensed under the MIT.
+________________________________________________________________________________________________________________________
+## Contact
 For questions or further information, please contact:
 
-Researcher A: [email/contact info]
-Researcher B: [email/contact info]
+Researcher A: [ortalgr@gmail.com]
+Researcher B: [or.cohen.raviv@gmail.com ]
 
