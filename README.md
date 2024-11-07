@@ -41,3 +41,81 @@ The main results of our project show:
 
 ## For more descriptive details : https://docs.google.com/document/d/1s0cfgyKlgBjMYcbDlTA1ioaXl_o8j5se/edit?usp=sharing&ouid=108623279518071003366&rtpof=true&sd=true
 
+# Project Overview (How to view - guidelines)
+This project aims to analyze and integrate research findings from two distinct data exploration approaches by Researcher A and Researcher B. Each researcher’s work is documented in separate Jupyter notebooks, and their analyses are combined in a master notebook to synthesize insights. The data sources include raw CSV files and an EDA-preprocessed CSV file, used differently across notebooks. Additionally, the repository includes presentation materials, documentation, and visual aids for further reference.
+____________________________________________________________________________________________________________________
+## Repository Structure
+Spotify_Classification_genres/
+│
+├── approach_A_notebook.ipynb/              # Researcher A's analysis notebook (uses EDA-preprocessed CSV)
+├── approach_B_notebook.ipynb/              # Researcher B's analysis notebook (uses raw CSV)
+│
+├── data/
+│   ├── processed data for notebook A       # Preprocessed dataset (used in Researcher A's notebook)
+|       ├── dataset.csv                     # Raw dataset (used in Researcher A's notebook at the beggining just for overview)
+|       ├── final_clean_dataset.csv         # Preprocessed dataset after preliminary EDA (used in Researcher A's notebook)
+│   ├── raw_data
+|       └── dataset.csv                     # Raw dataset (used in Researcher B's notebook)
+│
+├── documentation/
+│   ├── project_overview.docx               # Project information, context, and goals
+│   └── figures_description.docx            # Detailed descriptions and figures from both notebooks
+|
+├── master_notebook.ipynb/                  # Master notebook integrating findings from both researchers
+│
+├── presentation/
+│   └── project_presentation.pptx           # PowerPoint presentation summarizing project findings
+│
+└── README.md                               # This README file
+Notebooks
+Researcher A Notebook
+Filename: notebooks/researcher_A_notebook.ipynb
+Description: This notebook performs exploratory data analysis (EDA) and uses the preprocessed eda_data.csv file. It includes initial insights and specific figures related to [data characteristics, trends, etc.].
+
+Researcher B Notebook
+Filename: notebooks/researcher_B_notebook.ipynb
+Description: This notebook analyzes the original, raw data from raw_data.csv, using a different approach to explore the data. Key sections include analysis of [specific metrics, trends, etc.].
+
+Master Notebook
+Filename: notebooks/master_notebook.ipynb
+Description: The master notebook combines and integrates the analyses from both Researcher A and Researcher B. It draws conclusions from their findings and presents a unified view of the data.
+
+Data Files
+Raw Data: data/raw_data.csv — This is the unprocessed data used by Researcher B’s notebook.
+EDA Data: data/eda_data.csv — This is the preprocessed data created during the EDA process and used by Researcher A’s notebook.
+Documentation
+Project Overview: documentation/project_overview.docx — Provides context, objectives, and methodology behind the project.
+Figures and Descriptions: documentation/figures_description.docx — Contains graphical representations and detailed descriptions of the findings and figures generated in both researchers' notebooks.
+Presentation
+PowerPoint Presentation: presentation/project_presentation.pptx
+This presentation summarizes key findings and insights gathered through the project, providing a visual overview suitable for stakeholders or for use in meetings.
+
+Usage Instructions
+Run Individual Notebooks:
+
+To see each researcher's specific approach, open and run researcher_A_notebook.ipynb (using data/eda_data.csv) and researcher_B_notebook.ipynb (using data/raw_data.csv).
+Run the Master Notebook:
+
+To view the integrated analysis, open and run master_notebook.ipynb. This notebook synthesizes insights from both individual analyses.
+Review Documentation:
+
+The documentation files provide additional details on the project context (project_overview.docx) and descriptive information for each figure (figures_description.docx).
+View Presentation:
+
+The project_presentation.pptx file in the presentation folder summarizes the project and can be used as a quick reference or for presenting findings.
+Requirements
+To run the notebooks, ensure you have the following libraries installed:
+
+pandas
+numpy
+matplotlib
+seaborn
+License
+This project is licensed under the [Your License Here].
+
+Contact
+For questions or further information, please contact:
+
+Researcher A: [email/contact info]
+Researcher B: [email/contact info]
+
