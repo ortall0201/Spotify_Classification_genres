@@ -64,9 +64,12 @@ Spotify_Classification_genres/
 ├── master_notebook.ipynb/                  # Master notebook integrating findings from both researchers
 │
 ├── presentation/
-│   └── project_presentation.pptx           # PowerPoint presentation summarizing project findings
+│   └── Finding_the_Genre_Project_PresentationNEW.pptx                    # PowerPoint presentation summarizing project findings
 │
+├── LICENSE
 └── README.md                               # This README file
+
+___________________________________________________________________________________________________
 Notebooks
 Researcher A Notebook
 Filename: notebooks/researcher_A_notebook.ipynb
