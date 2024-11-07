@@ -1,5 +1,7 @@
 # Spotify_Classification_genres
-Goal of this project: Using ML algorithms for a multi-dimensional Classification of songs' track_genres by features such as energy, danceability, etc. - data taken from a tabular Spotify Dataset from Kaggle. 
+Goal of this project: Using ML algorithms for a multi-dimensional Classification of songs' track_genres by features such as energy, danceability, etc. - data taken from a tabular Spotify Dataset from Kaggle.
+
+The latest version combines the best methods from both approaches into a single, consolidated notebook— **Notebook B** —which now serves as the primary analysis and modeling pipeline.
 
 ## You can watch the Presentation on this link: [Presentation Link](https://docs.google.com/presentation/d/1hr-RSCL5ESOp1AHJBkojMitimdnu7m9d/edit?usp=drive_link&ouid=108623279518071003366&rtpof=true&sd=true)
 
@@ -60,7 +62,9 @@ Spotify_Classification_genres/
 
 ├── approach_A_notebook.ipynb # Researcher A's analysis notebook (uses EDA-preprocessed CSV) 
 
-├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV) 
+├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV) , however the latest version combines the best methods from both approaches into a 
+                                                                                 single, consolidated notebook—Notebook B—which now serves as the primary analysis 
+                                                                                 and modeling pipeline.
 
 |
 
