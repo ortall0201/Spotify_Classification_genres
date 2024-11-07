@@ -45,6 +45,8 @@ The main results of our project show:
 This project aims to analyze and integrate research findings from two distinct data exploration approaches by Researcher A and Researcher B. Each researcher’s work is documented in separate Jupyter notebooks, and their analyses are combined in a master notebook to synthesize insights. The data sources include raw CSV files and an EDA-preprocessed CSV file, used differently across notebooks. Additionally, the repository includes presentation materials, documentation, and visual aids for further reference.
 ____________________________________________________________________________________________________________________
 ## Repository Structure
+
+
 '''
 
 Spotify_Classification_genres/ │ ├── approach_A_notebook.ipynb # Researcher A's analysis notebook (uses EDA-preprocessed CSV) ├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV) │ ├── data/ │ ├── processed_data_for_notebook_A/ # Preprocessed dataset (used in Researcher A's notebook) │ ├── dataset.csv # Raw dataset (used in Researcher A's notebook for overview) │ ├── final_clean_dataset.csv # Preprocessed dataset after preliminary EDA (used in Researcher A's notebook) │ ├── raw_data/ │ └── dataset.csv # Raw dataset (used in Researcher B's notebook) │ ├── documentation/ │ ├── Finding_the_genre_Multi_Class_Classification.docx # Detailed descriptions and figures from both notebooks │ └── Finding_the_Genre_Project_Report.docx # Project information, context, and goals │ ├── master_notebook.ipynb # Master notebook integrating findings from both researchers │ ├── presentation/ │ └── Finding_the_Genre_Project_PresentationNEW.pptx # PowerPoint presentation summarizing project findings │ ├── LICENSE └── README.md # This README file
