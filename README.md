@@ -58,8 +58,8 @@ Spotify_Classification_genres/
 |       └── dataset.csv                     # Raw dataset (used in Researcher B's notebook)
 │
 ├── documentation/
-│   ├── project_overview.docx               # Project information, context, and goals
-│   └── figures_description.docx            # Detailed descriptions and figures from both notebooks
+│   ├── 2 Finding the genre - Multi Class Classification.docx              # Detailed descriptions and figures from both notebooks
+│   └── Finding_the_Genre_Project_Report.docx                              # Project information, context, and goals
 |
 ├── master_notebook.ipynb/                  # Master notebook integrating findings from both researchers
 │
