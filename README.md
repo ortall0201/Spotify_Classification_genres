@@ -153,7 +153,7 @@ To run the notebooks, ensure you have the following libraries installed:
 - matplotlib
 - seaborn
 
-You can also download the notebooks and run them in Google Colab.
+You can also download the notebooks and run them in [Google Colab](https://colab.research.google.com/).
 
 ---
 
