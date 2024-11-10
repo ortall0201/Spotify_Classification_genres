@@ -1,0 +1,5 @@
+train_accuracy,test_accuracy,f1_score,best_params
+0.5540544742242398,0.2882905291959455,0.287114962679269,"{'classifier__max_depth': 20, 'classifier__min_samples_leaf': 4, 'classifier__min_samples_split': 10}"
+0.9990361295939307,0.27056775076176853,0.27160616212385885,{'classifier__max_depth': None}
+0.19366022013556372,0.1760462657794913,0.15265525606353827,{'classifier__max_depth': 10}
+0.941304347826087,0.8504347826086956,0.850989696095133,{'classifier__max_depth': 10}

@@ -1,0 +1,5 @@
+Model,Train Accuracy,Test Accuracy,F1 Score (Test),Best Params
+Logistic Regression,0.7824529168580615,0.7176170636154467,0.7160473000805653,{'classifier__C': 10}
+Random Forest,1.0,0.7612710652322616,0.7594720987594552,"{'classifier__max_depth': None, 'classifier__n_estimators': 200}"
+Support Vector Machine,0.7986495176848875,0.7287482121758597,0.7260277528120561,"{'classifier__C': 10, 'classifier__kernel': 'rbf'}"
+Decision Tree,0.9358658704639412,0.7122691374914495,0.712053168045488,{'classifier__max_depth': 20}
