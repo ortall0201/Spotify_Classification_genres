@@ -64,7 +64,7 @@ Spotify_Classification_genres/
 
 ├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV) , however the latest version combines the best methods from both approaches into a 
                                                                                  single, consolidated notebook—Notebook B—which now serves as the primary analysis 
-                                                                                 and modeling pipeline.
+                                                                                 and modeling pipeline. Inside you will find a direct link to notebook A.
 
 |
 
@@ -88,10 +88,6 @@ Spotify_Classification_genres/
 
 │ └── Finding_the_Genre_Project_Report.docx # Project information, context, and goals 
 
-| 
-
-├── master_notebook.ipynb # Master notebook integrating findings from both researchers
-
 |
 
 ├── presentation/ 
@@ -109,13 +105,10 @@ Spotify_Classification_genres/
 
 ## Notebooks
 **approach_A_notebook.ipynb**
-This notebook uses a preprocessed dataset, which has undergone initial data cleaning and EDA. The focus is on building a classification model based on this cleaned data.
+This notebook uses a preprocessed dataset, which has undergone initial data cleaning and EDA. The focus is on comparing classification models (with different given parameters - classes/features) based on this cleaned data.
 
 **approach_B_notebook.ipynb**
-This notebook works with the raw dataset directly, and shows another approach for preprocessing and EDA steps, and builds a classification model using the unprocessed data.
-
-**master_notebook.ipynb**
-This notebook combines the findings from both approaches, comparing their results and providing a comprehensive analysis of the genre classification task.
+This notebook works with the raw dataset directly, and shows another approach for preprocessing and EDA steps, and builds a classification ensemble models using the raw/unprocessed data. - This is also served as the MASTER notebook and connects with a link to notebook A model comparison.
 
 ---
 
@@ -169,5 +162,5 @@ This project is licensed under the MIT.
 ## Contact
 For questions or further information, please contact:
 
-- **Researcher A**: [ortalgr@gmail.com]
-- **Researcher B**: [or.cohen.raviv@gmail.com]
+- **Researcher 1**: [ortalgr@gmail.com]
+- **Researcher 2**: [or.cohen.raviv@gmail.com]
