@@ -61,7 +61,9 @@ Spotify_Classification_genres/
 
 │ 
 
-├── approach_A_notebook.ipynb # Researcher A's analysis notebook (uses EDA-preprocessed-engeneered CSV called 'cleaned_engeneered_dataset.csv') 
+├── approach_A_notebook.ipynb # Researcher A's analysis notebook (uses EDA-preprocessed-engeneered CSV called 'cleaned_engeneered_dataset.csv')
+
+|       ├── Model_Results (Scoring saved into a csv file for tracking, but are also shown in the evaluation results in the notebook itself. For example the first model_results.csv relates to results of decision tree based models gathered into one csv for convience and tracking). 
 
 ├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV) , however the latest version combines the best methods from both approaches into a 
                                                                                  single, consolidated notebook—Notebook B—which now serves as the primary analysis 
