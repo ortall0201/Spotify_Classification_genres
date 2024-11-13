@@ -48,10 +48,11 @@ The main results of our project show:
 # Project Overview (How to view - guidelines)
 This repository contains the results and analysis of the genre classification task based on the Spotify dataset. The project is divided into two approaches:
 
-- **Approach A** (Researcher A) uses a preprocessed version of the dataset, which includes an initial Exploratory Data Analysis (EDA).
-- **Approach B** (Researcher B) uses the raw dataset directly for classification without prior preprocessing.
+- **Approach A** (Researcher A) uses a preprocessed version of the dataset, including added engeneered features and additional cleanup (this is saved into a file called cleaned_engeneered_dataset.csv being used for the classification in this notebook) for models comparison and evaluation. There is a link activating this file directly in the "Model training" section, so no need to run the initial start of the notebook.
 
-Both approaches are implemented in separate notebooks, and their results are integrated into a master notebook.
+- **Approach B** (Researcher B) uses the raw dataset directly for activation of this notebook, through a direct path created at the beggining of this notebook. This is also the **MASTER notebook** that includes all stages including the part of notebook A and it's direct link (which is mentioned in the related section - see Table Contents).
+
+Both approaches are implemented in separate notebooks, and their results are integrated into a the B notebook which is the MASTER.
 ---
 
 ## Repository Structure
@@ -60,9 +61,9 @@ Spotify_Classification_genres/
 
 │ 
 
-├── approach_A_notebook.ipynb # Researcher A's analysis notebook (uses EDA-preprocessed CSV) 
+├── approach_A_notebook.ipynb # Researcher A's analysis notebook (uses EDA-preprocessed-engeneered CSV called 'cleaned_engeneered_dataset.csv') 
 
-├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV) , however the latest version combines the best methods from both approaches into a 
+├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV called 'dataset.csv' which is in the) , however the latest version combines the best methods from both approaches into a 
                                                                                  single, consolidated notebook—Notebook B—which now serves as the primary analysis 
                                                                                  and modeling pipeline. Inside you will find a direct link to notebook A.
 
@@ -74,7 +75,9 @@ Spotify_Classification_genres/
 
 |       ├── dataset.csv # Raw dataset (used in Researcher A's notebook for overview) 
 
-│       ├── final_clean_dataset.csv # Preprocessed dataset after preliminary EDA (used in Researcher A's notebook) 
+│       ├── final_clean_dataset.csv # Preprocessed dataset after preliminary EDA (This is the file after initial EDA, the same as initial EDA in notebook B) 
+
+│       ├── clean_engeneered_dataset.csv # Preprocessed dataset after preliminary EDA + aditional cleanup + Feature engeneering (used in Researcher A's notebook for the Model training process, which is the comparison between models in different given parameters + evaluation before ensemble)
 
 │    ├── raw_data/ 
 
@@ -105,10 +108,10 @@ Spotify_Classification_genres/
 
 ## Notebooks
 **approach_A_notebook.ipynb**
-This notebook uses a preprocessed dataset, which has undergone initial data cleaning and EDA. The focus is on comparing classification models (with different given parameters - classes/features) based on this cleaned data.
+This notebook uses a preprocessed dataset, which has undergone initial data cleaning and EDA + added feature engeneered columns. The focus is on comparing classification models (with different given parameters - classes/features) based on this cleaned data before moving on to ensembles.
 
 **approach_B_notebook.ipynb**
-This notebook works with the raw dataset directly, and shows another approach for preprocessing and EDA steps, and builds a classification ensemble models using the raw/unprocessed data. - This is also served as the MASTER notebook and connects with a link to notebook A model comparison.
+This notebook works with the raw dataset directly, and builds a classification ensemble models. - This is also served as the **MASTER notebook** and connects with a link to notebook A model comparison (see Table Contents).
 
 ---
 
@@ -119,9 +122,10 @@ Contains the preprocessed data used in Researcher A's notebook.
 
 - **dataset.csv**: Raw dataset used initially for an overview.
 - **final_clean_dataset.csv**: Cleaned dataset after preliminary EDA, used in Researcher A's notebook.
+- **clean_engeneered_dataset.csv**: Added feature engeneered columns and another cleanup of duplicates remained in the final_clean_dataset.csv. This is used in the Model training section directly.
 
 **raw_data/**
-Contains the raw dataset used in Researcher B's notebook.
+Contains the raw dataset used in Researcher B's notebook. This is the dataset from Kaggle (a link to this dataset is given in the intro section)
 
 - **dataset.csv**: Raw dataset used directly for model training in Researcher B's notebook.
 
