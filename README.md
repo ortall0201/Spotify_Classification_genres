@@ -63,7 +63,7 @@ Spotify_Classification_genres/
 
 ├── approach_A_notebook.ipynb # Researcher A's analysis notebook (uses EDA-preprocessed-engeneered CSV called 'cleaned_engeneered_dataset.csv') 
 
-├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV called 'dataset.csv' which is in the) , however the latest version combines the best methods from both approaches into a 
+├── approach_B_notebook.ipynb # Researcher B's analysis notebook (uses raw CSV) , however the latest version combines the best methods from both approaches into a 
                                                                                  single, consolidated notebook—Notebook B—which now serves as the primary analysis 
                                                                                  and modeling pipeline. Inside you will find a direct link to notebook A.
 
@@ -120,7 +120,7 @@ This notebook works with the raw dataset directly, and builds a classification e
 **processed_data_for_notebook_A/**
 Contains the preprocessed data used in Researcher A's notebook.
 
-- **dataset.csv**: Raw dataset used initially for an overview.
+- **dataset.csv**: Raw dataset used initially for an overview (this is also the same dataset from the given link at the intro, taken from Kaggle).
 - **final_clean_dataset.csv**: Cleaned dataset after preliminary EDA, used in Researcher A's notebook.
 - **clean_engeneered_dataset.csv**: Added feature engeneered columns and another cleanup of duplicates remained in the final_clean_dataset.csv. This is used in the Model training section directly.
 
